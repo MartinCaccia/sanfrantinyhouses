@@ -2872,7 +2872,11 @@ input, select, textarea {
 			}
 
 			#headerOriginal .logo .symbol {
-				margin-right: 0.65em;
+				margin-right: 0.65em;		
+			}
+
+			#headerOriginal .logo .title {
+				margin-top: 2em;		
 			}
 
 				#headerOriginal .logo .symbol img {
