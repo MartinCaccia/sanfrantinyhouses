@@ -33,6 +33,24 @@ html {
 	scroll-behavior: smooth;
 }
 
+.whats-app {
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 40px;
+	right: 45px;
+	background-color: #25d366;
+	color: #FFF;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 2px 2px 3px #999;
+	z-index: 100;
+}
+.my-float {
+	margin-top: 16px;
+}
+
 body {
 	line-height: 1;
 }
@@ -2576,7 +2594,7 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		postiion: relative;
+		position: relative;
 		margin: -2.5em 0 0 -2.5em;
 	}
 
@@ -2832,11 +2850,11 @@ input, select, textarea {
 
 /* Header */
 
-	#header {
+	#headerOriginal {
 		padding: 8em 0 0.1em 0 ;
 	}
 
-		#header .logo {
+		#headerOriginal .logo {
 			display: block;
 			border-bottom: 0;
 			color: inherit;
@@ -2848,29 +2866,29 @@ input, select, textarea {
 			display: inline-block;
 		}
 
-			#header .logo > * {
+			#headerOriginal .logo > * {
 				display: inline-block;
 				vertical-align: middle;
 			}
 
-			#header .logo .symbol {
+			#headerOriginal .logo .symbol {
 				margin-right: 0.65em;
 			}
 
-				#header .logo .symbol img {
+				#headerOriginal .logo .symbol img {
 					display: block;
 					width: 8em;
 					height: 8em;
 				}
 
-		#header nav {
+		#headerOriginal nav {
 			position: fixed;
 			right: 2em;
 			top: 2em;
 			z-index: 10000;
 		}
 
-			#header nav ul {
+			#headerOriginal nav ul {
 				display: -moz-flex;
 				display: -webkit-flex;
 				display: -ms-flex;
@@ -2884,12 +2902,12 @@ input, select, textarea {
 				padding: 0;
 			}
 
-				#header nav ul li {
+				#headerOriginal nav ul li {
 					display: block;
 					padding: 0;
 				}
 
-					#header nav ul li a {
+					#headerOriginal nav ul li a {
 						display: block;
 						position: relative;
 						height: 3em;
@@ -2904,7 +2922,7 @@ input, select, textarea {
 						text-transform: uppercase;
 					}
 
-					#header nav ul li a[href="#menu"] {
+					#headerOriginal nav ul li a[href="#menu"] {
 						-webkit-tap-highlight-color: transparent;
 						width: 4em;
 						text-indent: 4em;
@@ -2914,7 +2932,7 @@ input, select, textarea {
 						white-space: nowrap;
 					}
 
-						#header nav ul li a[href="#menu"]:before, #header nav ul li a[href="#menu"]:after {
+						#headerOriginal nav ul li a[href="#menu"]:before, #headerOriginal nav ul li a[href="#menu"]:after {
 							-moz-transition: opacity 0.2s ease;
 							-webkit-transition: opacity 0.2s ease;
 							-ms-transition: opacity 0.2s ease;
@@ -2931,36 +2949,36 @@ input, select, textarea {
 							background-size: 2em 2em;
 						}
 
-						#header nav ul li a[href="#menu"]:before {
+						#headerOriginal nav ul li a[href="#menu"]:before {
 							background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 8px%3B stroke: %23f2849e%3B %7D%3C/style%3E%3Cline x1='0' y1='25' x2='100' y2='25' /%3E%3Cline x1='0' y1='50' x2='100' y2='50' /%3E%3Cline x1='0' y1='75' x2='100' y2='75' /%3E%3C/svg%3E");
 							opacity: 0;
 						}
 
-						#header nav ul li a[href="#menu"]:after {
+						#headerOriginal nav ul li a[href="#menu"]:after {
 							background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 8px%3B stroke: %23585858%3B %7D%3C/style%3E%3Cline x1='0' y1='25' x2='100' y2='25' /%3E%3Cline x1='0' y1='50' x2='100' y2='50' /%3E%3Cline x1='0' y1='75' x2='100' y2='75' /%3E%3C/svg%3E");
 							opacity: 1;
 						}
 
-						#header nav ul li a[href="#menu"]:hover:before {
+						#headerOriginal nav ul li a[href="#menu"]:hover:before {
 							opacity: 1;
 						}
 
-						#header nav ul li a[href="#menu"]:hover:after {
+						#headerOriginal nav ul li a[href="#menu"]:hover:after {
 							opacity: 0;
 						}
 
 		@media screen and (max-width: 736px) {
 
-			#header {
+			#headerOriginal {
 				padding: 4em 0 0.1em 0 ;
 			}
 
-				#header nav {
+				#headerOriginal nav {
 					right: 0.5em;
 					top: 0.5em;
 				}
 
-					#header nav ul li a[href="#menu"]:before, #header nav ul li a[href="#menu"]:after {
+					#headerOriginal nav ul li a[href="#menu"]:before, #headerOriginal nav ul li a[href="#menu"]:after {
 						background-size: 1.5em 1.5em;
 					}
 
