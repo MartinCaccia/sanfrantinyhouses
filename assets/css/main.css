@@ -29,6 +29,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	line-height: 1;
 }
@@ -2545,7 +2549,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #ee5f81;
+				background-color: #03A9F4;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2718,11 +2722,11 @@ input, select, textarea {
 			}
 
 			.tiles article.style4 > .image:before {
-				background-color: #c75b9b;
+				background-color: #03A9F4;
 			}
 
 			.tiles article.style5 > .image:before {
-				background-color: #ae85ca;
+				background-color: #03A9F4;
 			}
 
 			.tiles article.style6 > .image:before {
