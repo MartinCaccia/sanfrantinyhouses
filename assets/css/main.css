@@ -2851,7 +2851,7 @@ input, select, textarea {
 /* Header */
 
 	#headerOriginal {
-		padding: 8em 0 0.1em 0 ;
+		padding: 3em 0 0 0 ;
 	}
 
 		#headerOriginal .logo {
@@ -2970,7 +2970,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#headerOriginal {
-				padding: 4em 0 0.1em 0 ;
+				padding: 2em 0 0.1em 0 ;
 			}
 
 				#headerOriginal nav {
