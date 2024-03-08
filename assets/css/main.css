@@ -2877,7 +2877,7 @@ input, select, textarea {
 
 			#headerOriginal .logo .title {
 				margin-top: 2em;
-				width: auto;
+				width: fit-content(25em);
 			}
 
 				#headerOriginal .logo .symbol img {
