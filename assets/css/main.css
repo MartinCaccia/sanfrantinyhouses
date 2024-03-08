@@ -2899,7 +2899,7 @@ input, select, textarea {
 				#headerOriginal .logo .title {
 					margin-top: 1em;
 					width: 1em;
-					font-size: 0.3em;
+					/* font-size: 0.3em; */
 				}
 			}
 
