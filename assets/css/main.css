@@ -212,7 +212,7 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			h1 {
-				font-size: 1em;
+				font-size: 1.75em;
 			}
 
 		}
@@ -2876,7 +2876,8 @@ input, select, textarea {
 			}
 
 			#headerOriginal .logo .title {
-				margin-top: 2em;		
+				margin-top: 2em;
+				width:max-content;
 			}
 
 				#headerOriginal .logo .symbol img {
