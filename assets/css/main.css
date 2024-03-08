@@ -2898,7 +2898,7 @@ input, select, textarea {
 			@media only screen and (max-width: 600px) {
 				#headerOriginal .logo .title {
 					margin-top: 1em;
-					width: fit-content;
+					width: 1em;
 				}
 			}
 
