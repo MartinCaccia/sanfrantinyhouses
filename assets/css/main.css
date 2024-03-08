@@ -110,6 +110,10 @@ input, select, textarea {
 			min-width: 320px;
 		}
 
+		h1 {
+			font-size: 0.3em;
+		}
+
 	}
 
 	html {
