@@ -204,6 +204,8 @@ input, select, textarea {
 			color: inherit;
 		}
 
+/* Cambios segun dispositivo mobile, tablet, desktop */		
+
 		@media screen and (max-width: 736px) {
 
 			h1 {
@@ -216,7 +218,7 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			h1 {
-				font-size: 0.3em;
+				font-size: 1em;
 			}
 
 		}
@@ -262,6 +264,10 @@ input, select, textarea {
 	}
 
 	@media screen and (max-width: 736px) {
+		h1 {
+			font-size: 2em;
+			margin: 0 0 1em 0;
+		}		
 
 		h2 {
 			font-size: 1em;
@@ -2883,11 +2889,17 @@ input, select, textarea {
 				margin-top: 2em;
 			}
 
-				#headerOriginal .logo .symbol img {
-					display: block;
-					width: 8em;
-					height: 8em;
+			#headerOriginal .logo .symbol img {
+				display: block;
+				width: 8em;
+				height: 8em;
+			}
+
+			@media only screen and (max-width: 600px) {
+				body {
+					background-color: lightblue;
 				}
+			}
 
 		#headerOriginal nav {
 			position: fixed;
