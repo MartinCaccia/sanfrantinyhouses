@@ -2892,6 +2892,7 @@ input, select, textarea {
 			#headerOriginal .logo .title img {
 				display: block;
 				width: 100%;
+				height: 100%;
 			}
 
 			#headerOriginal .logo .symbol img {
