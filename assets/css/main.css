@@ -2868,11 +2868,11 @@ input, select, textarea {
 			display: block;
 			border-bottom: 0;
 			color: inherit;
-			font-weight: 900;
+			/* font-weight: 900; */
 			letter-spacing: 0.35em;
 			margin: 0 0 1em 0;
-			text-decoration: none;
-			text-transform: uppercase;
+/* 			text-decoration: none;
+			text-transform: uppercase; */
 			display: inline-block;
 		}
 
@@ -2904,7 +2904,7 @@ input, select, textarea {
 			@media only screen and (max-width: 600px) {
 				#headerOriginal .logo .title {
 					margin-top: 0.3em;
-					width: 1em;
+					/* width: 1em; */
 					/* font-size: 0.3em; */
 				}
 			}
